@@ -7,7 +7,7 @@ const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+    style: 'mapbox://styles/patriziabuomp/cke48dvoz0xcp19rsahrwpzzd', // stylesheet location
     center: [-74.00597, 40.71427], // starting position [lng, lat]
     zoom: 10 // starting zoom
   });
